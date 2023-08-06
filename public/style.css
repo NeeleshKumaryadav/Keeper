@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 16px 32px;
+    margin: auto -16px;
+    box-shadow: 0 0 20px 0 rgb(65, 58, 58);
+
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    color: #ccc;
+}
+
+.note{
+    background-color: #ccc;
+    border-radius: 7px;
+    width: 240px;
+    box-shadow: 0 2px 5px gold;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+}
+
+.note h1{
+    margin-bottom: 6px;
+}
+
+.note p{
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 1.3em;
+}
+
+.note button{
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: yellow;
+    border: none;
+}
+
+.create-area{
+    border-radius: 7px;
+    width: 440px;
+    box-shadow: 0 2px 5px gold;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.create-area input{
+    height: 2rem;
+    width: 400px;
+    border: none;
+    font-size: 25px;
+
+}
+
+.create-area textarea{
+    width: 400px;
+    border: none;
+    font-size: 25px;
+}
+
+.create-area button{
+    float:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: yellow;
+    border: none;
+}
